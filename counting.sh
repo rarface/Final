@@ -1,4 +1,4 @@
 #!/bin/bash
-for i in {1..50}; do
-  echo $i
+for looper in $(seq 1 50)
+do echo $looper
 done
